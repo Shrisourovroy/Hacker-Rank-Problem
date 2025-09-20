@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    char ch, a[50];
+    char sen[100];
+    scanf("%c",&ch);
+    scanf("%s",&a);
+    getchar();
+    fgets(sen,sizeof(sen),stdin);
+
+    printf("%c\n",ch);
+    printf("%s\n",a);
+    printf("%s\n",sen);
+    return 0;
+}
