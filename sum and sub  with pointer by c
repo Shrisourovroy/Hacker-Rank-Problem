@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+void newPon(int *a, int *b)
+{
+    int sum = *a+*b;
+    int sub = *a-*b;
+
+    printf("%d\n",sum);
+    if(sub>=0)
+    {
+       printf("%d",sub);
+    }
+    if(sub<0)
+    {
+        printf("%d",-sub);
+    }
+}
+
+
+int main()
+{
+    int m,n;
+    scanf("%d %d",&m,&n);
+    newPon(&m,&n);
+    return 0;
+}
